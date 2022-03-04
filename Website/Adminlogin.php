@@ -21,10 +21,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#"><i class="fa fa-home">&nbsp;</i>Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="mainhome.php"><i class="fa fa-home">&nbsp;</i>Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#"><i class="fa fa-user">&nbsp;</i>Logout</a>
+                <a class="nav-link" href="logout.php"><i class="fa fa-user">&nbsp;</i>Logout</a>
               </li>
             </ul>
         </div>
@@ -77,8 +77,8 @@
                     <div class="card-body">
                     <h4 class="card-title">Add User</h4>
                     <p class="card-text">Here you can register new customer</p>
-                    <a href="#" data-toggle="modal" data-target="#form_category" class="btn btn-primary">Add User</a>
-                    <a href="manage_categories.php" class="btn btn-primary">Manage</a>
+                    <a href="userregister.php"  class="btn btn-primary">Add User</a>
+                    <a href="#" class="btn btn-primary">Manage</a>
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@
                     <div class="card-body">
                     <h4 class="card-title">Add Service Engineer</h4>
                     <p class="card-text">Here you can register new service engineer</p>
-                    <a href="#" data-toggle="modal" data-target="#form_brand" class="btn btn-primary">Add</a>
+                    <a href="seregister.php"  class="btn btn-primary">Add</a>
                     <a href="manage_brand.php" class="btn btn-primary">Manage</a>
                 </div>
             </div>
@@ -97,8 +97,8 @@
                     <div class="card-body">
                     <h4 class="card-title">Add Products</h4>
                     <p class="card-text">Here you  can view and add new products</p>
-                    <a href="#" data-toggle="modal" data-target="#form_products" class="btn btn-primary">Add</a>
-                    <a href="manage_product.php" class="btn btn-primary">View</a>
+                    <a href="create.php"  class="btn btn-primary">Add</a>
+                    <a href="index.php" class="btn btn-primary">View</a>
                 </div>
             </div>
         </div>

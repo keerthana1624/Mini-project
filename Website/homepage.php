@@ -1,10 +1,9 @@
 <?php
-$conn=mysqli_connect("localhost","root","","website");
-if($conn==false){
-    die("connection error");
-}
+include'connection.php';
+
 if($_SERVER["REQUEST_METHOD"]=="POST")
 {
+    
     $username=$_POST["username"];
     $password=$_POST["password"];
     $sql1="select usertype from loginform where username='".$username."' AND password='".$password."'";
@@ -68,6 +67,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
                 <h2>Login Here</h2>
                 <input type='text' name='username' id='username' placeholder='Enter Username'>
                 <input type='password' name='password' id='password' placeholder='Enter Password ''>
+                <?php
                 <button class='btn' name='submit'>Login</button>
 
                 <p class='link'>Don't have an account<br>
